@@ -1,0 +1,199 @@
+body {
+  background: rgb(255, 133, 177);
+  background: radial-gradient(
+    circle,
+    rgba(255, 133, 177, 1) 0%,
+    rgba(255, 117, 200, 1) 35%,
+    rgba(254, 151, 196, 1) 69%,
+    rgba(255, 134, 209, 1) 100%
+  );
+}
+
+.logo {
+  padding: 20px 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.encrypt-input {
+  width: 100%;
+}
+
+.text-input {
+  position: relative;
+  box-sizing: border-box;
+  height: 16rem;
+  /* left: 10px;*/
+  top: 3px;
+  padding: 24px;
+  margin: 0% 5% 0px;
+  width: 90%;
+  border: 3px solid #4df911;
+  border-bottom: none;
+  border-radius: 50px 50px 0px 0px;
+  line-height: 150%;
+  background-color: rgba(0, 6, 201, 0.4);
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  color: #4df911;
+}
+
+.text-input::placeholder {
+  color: #4df911;
+}
+
+.info {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 5% 0px;
+  width: 90%;
+  top: 360px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  text-align: center;
+}
+
+label {
+  padding: 8px;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.encrypt-button {
+  width: 45%;
+  height: 4rem;
+  padding: 16px;
+  background: #e61f87;
+  border: 3px solid #4df911;
+  border-right: 1.5px solid;
+  border-radius: 0px 0px 0px 50px;
+  font-family: "Audiowide", cursive;
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-align: center;
+  color: #4df911;
+}
+
+.decrypt-button {
+  padding: 16px;
+  width: 45%;
+  height: 4rem;
+  background: #e61f87;
+  border-radius: 0px 0px 50px 0px;
+  border: 3px solid #4df911;
+  font-family: "Audiowide", cursive;
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-align: center;
+  color: #4df911;
+}
+
+/*message and text output*/
+.message-output {
+  width: 100%;
+}
+
+.message {
+  background-color: rgba(0, 6, 201, 0.4);
+  /* position: absolute; */
+  width: 90%;
+  height: 20rem;
+  margin: 5% 5% 0%;
+  border: 3px solid #4df911;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 150%;
+}
+
+.message img {
+  position: relative;
+  top: 25px;
+}
+
+.message h2 {
+  margin-top: 24px;
+  padding: 16px;
+  width: 90%;
+  position: static;
+  text-align: center;
+  font-family: "Audiowide", cursive;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #4df911;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 24rem; */
+}
+
+.text-output {
+  box-sizing: border-box;
+  border: 3px solid #4df911;
+  border-bottom: none;
+  border-radius: 50px 50px 0px 0px;
+  position: relative;
+  top: 3px;
+  padding: 24px;
+  width: 90%;
+  height: 16rem;
+  margin: 5% 5% 0px;
+  background-color: rgba(0, 6, 201, 0.4);
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  color: #4df911;
+}
+
+.text-output::placeholder {
+  color: #4df911;
+}
+
+.text-input:focus,
+.text-output:focus {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  overflow: auto;
+  outline: none;
+}
+
+.copy-button {
+  width: 90%;
+  height: 4rem;
+  padding: 24px;
+  margin: 0px 5% 5%;
+  background: #e61f87;
+  border-radius: 0px 0px 50px 50px;
+  border: 3px solid #4df911;
+  font-family: "Audiowide", cursive;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+  color: #4df911;
+}
+
+.encrypt-button:hover,
+.decrypt-button:hover,
+.copy-button:hover {
+  background-color: #e40076;
+}

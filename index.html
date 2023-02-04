@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=IBM+Plex+Mono:wght@400;500&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title></title>
+  </head>
+  <body>
+    <main class="container">
+      <img
+        src="/IMGs/logo.svg"
+        alt="logo: coração y2k com cadeado"
+        class="logo"
+      />
+      <section class="encrypt-input" id="encrypt=input">
+        <textarea
+          class="text-input"
+          id="text-input"
+          placeholder="digite aqui o texto para criptografar ou descriptografar... "
+        ></textarea>
+        <div class="info">
+          <img src="/IMGs/alerta.svg" alt="" class="alert-img" />
+          <label for=""> use apenas letras minúsculas e sem acento</label>
+        </div>
+        <div class="buttons">
+          <input
+            type="submit"
+            value="criptografar"
+            class="encrypt-button"
+            id="encrypt-button"
+          />
+          <input
+            type="submit"
+            value="descriptografar"
+            class="decrypt-button"
+            id="decrypt-button"
+          />
+        </div>
+      </section>
+      <section class="message-output" id="message-output">
+        <div class="message" id="message">
+          <img src="/IMGs/mensagem.svg" alt="" />
+          <h2>nenhuma mensagem encontrada.</h2>
+        </div>
+        <div class="output" id="output">
+          <textarea
+            class="text-output"
+            id="text-output"
+            placeholder="resultado aqui..."
+          ></textarea>
+          <input
+            type="button"
+            value="copiar"
+            class="copy-button"
+            id="copy-button"
+          />
+        </div>
+      </section>
+      <footer></footer>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>

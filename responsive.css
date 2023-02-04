@@ -1,0 +1,150 @@
+@media screen and (min-width: 1024px) {
+  .container {
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  .logo {
+    position: absolute;
+    width: 138px;
+    height: 148.39px;
+    top: 44px;
+    left: 651px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo:hover {
+    transform: scale(1.2);
+  }
+
+  .encrypt-input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 576px;
+    height: 553px;
+    left: 75px;
+    top: 255px;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .info {
+    position: absolute;
+    width: 336px;
+    height: 20px;
+    left: 195px;
+    top: 767px;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .buttons {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 576px;
+    height: 80px;
+  }
+
+  .encrypt-button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    left: 75px;
+    top: 808px;
+    font-size: 1.3rem;
+  }
+
+  .decrypt-button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 288px;
+    height: 80px;
+    top: 808px;
+    left: 363px;
+    z-index: 1;
+    margin: 0;
+    font-size: 1.3rem;
+  }
+
+  /*message and text output*/
+  .message-output {
+    box-sizing: border-box;
+  }
+
+  .message {
+    box-sizing: border-box;
+    position: absolute;
+    width: 576px;
+    height: 553px;
+    left: 789px;
+    top: 255px;
+    margin: 0;
+  }
+
+  .message img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 356px;
+    height: 338px;
+    top: 72px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .message img:hover {
+    transform: scale(1.1);
+  }
+
+  .message h2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 340px;
+    height: 76px;
+    top: 431px;
+    font-family: "Audiowide";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .output {
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  .text-output {
+    box-sizing: border-box;
+    position: absolute;
+    width: 576px;
+    height: 553px;
+    left: 789px;
+    top: 255px;
+    margin: 0;
+    border-radius: 50px 50px 0px 0px;
+    font-size: 1.5rem;
+  }
+
+  .copy-button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 576px;
+    height: 80px;
+    left: 789px;
+    top: 808px;
+    margin: 0;
+    font-size: 1.3rem;
+  }
+}
