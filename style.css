@@ -1,4 +1,5 @@
 body {
+  box-sizing: border-box;
   background: rgb(255, 133, 177);
   background: radial-gradient(
     circle,
